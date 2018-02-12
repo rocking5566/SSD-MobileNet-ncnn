@@ -1,5 +1,6 @@
 # SSD-MobileNet-ncnn
- SSD-MobileNet with Tencent ncnn framework
+SSD-MobileNet with Tencent ncnn framework
+ - Model can be downloaded from https://drive.google.com/open?id=0ByaKLD9QaPtucWk0Y0dha1VVY0U
  
 ## Require Dependency Library
   - OpenCV 3.3.1 (For displaying demo video)
