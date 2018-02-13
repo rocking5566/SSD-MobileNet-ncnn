@@ -133,7 +133,7 @@ int main(int argc, char** argv)
         ++count;
 
         std::cout << "time = " << t << " ms, FPS = " << 1000 / t 
-            << ", Average time = " << sumMs / count << std::endl;
+            << ", Average time = " << sumMs / count << ", Average FPS = "<< (1000 / (sumMs / count)) << endl;
 
         PlotDetectionResult(frame, result, 0.5);
         imshow("frame", frame);
